@@ -12,6 +12,7 @@ public class DatePrinter {
             dateFormat.setTimeZone(TimeZone.getTimeZone(timeZone));
             System.out.printf("For %s time is : %s \n", timeZone, dateFormat.format(gregorianCalendar.getTime()));
         }
+        Car car = new Car(1.5, 6);
     }
 
 }

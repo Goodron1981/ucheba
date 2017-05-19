@@ -80,7 +80,7 @@ public class Main extends Application {
                    String alltargetpath = targetPath + "\\"+ filenamesource;
                     Files.copy(Paths.get(sourcePath), Paths.get(alltargetpath));
                     resultMessage.setFill(Color.GREEN);
-                    resultMessage.setText("File was copied to Diractory.");
+                    resultMessage.setText("File was copied to Directory.");
                 }else{
                     Files.copy(Paths.get(sourcePath), Paths.get(targetPath));
                     resultMessage.setFill(Color.GREEN);
